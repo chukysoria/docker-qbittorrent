@@ -26,7 +26,7 @@ RUN \
     /tmp/vuetorrent.zip -L \
     "https://github.com/WDaan/VueTorrent/releases/download/${BUILD_EXT_RELEASE}/vuetorrent.zip" && \
   unzip \
-    /tmp/bazarr.zip -d \
+    /tmp/vuetorrent.zip -d \
     /vuetorrent && \
   echo "**** cleanup ****" && \
   rm -rf \
