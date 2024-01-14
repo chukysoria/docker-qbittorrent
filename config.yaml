@@ -1,6 +1,6 @@
 ---
 image: qbittorrent
-version: v0.1.3
+version: v0.1.4
 name: qBittorrent
 description: "The [Qbittorrent](https://www.qbittorrent.org/) project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library."
 ext_release: v2.5.0
