@@ -37,3 +37,5 @@ RUN \
 EXPOSE 8080 6881 6881/udp
 
 VOLUME /config
+
+HEALTHCHECK --interval=30s --timeout=30s --start-period=2m --start-interval=5s --retries=5 CMD ["nc", "-z", "localhost", "${WEBUI_PORT:-8080}"]
