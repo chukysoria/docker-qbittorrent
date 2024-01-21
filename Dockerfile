@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-ARG BUILD_FROM=lscr.io/linuxserver/qbittorrent:4.6.3-r0-ls306
+ARG BUILD_FROM=lscr.io/linuxserver/qbittorrent:4.6.3-r0-ls307
 
 FROM ${BUILD_FROM} 
 
