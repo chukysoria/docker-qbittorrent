@@ -1,4 +1,4 @@
 ---
 build_from:
-  aarch64: lscr.io/linuxserver/qbittorrent:4.6.3-r0-ls311
-  x86_64: lscr.io/linuxserver/qbittorrent:4.6.3-r0-ls311
+  aarch64: lscr.io/linuxserver/qbittorrent:4.6.3-r0-ls312
+  x86_64: lscr.io/linuxserver/qbittorrent:4.6.3-r0-ls312
